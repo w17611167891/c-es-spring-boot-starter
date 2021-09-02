@@ -1,2 +1,9 @@
-# c-es-spring-boot-starter
+
+
 该项目提供了操作elasticsearch的工具类及注解，方便使用es快速搭建服务
+提供了三种调用es方式
+1、注解形式 不向外抛出异常 适合在方法内部实现逻辑
+2、接口形式 类似mybatis接口 查询接口固定返回SourcePage<T>
+3、工具类直接调用 EsUtil
+
+暂时功能只支持部分功能查询 逐步实现
